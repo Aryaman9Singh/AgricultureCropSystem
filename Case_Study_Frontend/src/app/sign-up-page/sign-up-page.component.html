@@ -1,0 +1,314 @@
+<div class = "d-flex flex-row align-items-center justify-content-center ">You are a: <button type="button" class="btn btn-primary btn-lg mx-3">Farmer</button>
+  <button type="button" class="btn btn-secondary btn-lg mx-3">Dealer</button></div>
+<div *ngIf="show; then thenBlock ; else elseBlock" ></div>
+
+              <ng-template #thenBlock>
+                <section class="h-100 h-custom gradient-custom-2">
+
+                  <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col-12">
+                        <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                          <div class="card-body p-0">
+                            <div class="row g-0">
+                              <div class="col-lg-6">
+                                <div class="p-5">
+                                  <h3 class="fw-normal mb-5" style="color: #4835d4;">Farmer Infomation</h3>
+                
+                                  
+                
+                                  <div class="row">
+                                    <div class="col-md-6 mb-4 pb-2">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="fid" class="form-control form-control-lg" />
+                                        <label class="form-label" for="fid">Farmer ID</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-6 mb-4 pb-2">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="femail" class="form-control form-control-lg" />
+                                        <label class="form-label" for="femail">Email</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                                  
+                
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="fname" class="form-control form-control-lg" />
+                                      <label class="form-label" for="fname">Farmer Name</label>
+                                    </div>
+                                   
+                                  </div>
+                
+                                  <div class="row">
+                                    <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="fpass" class="form-control form-control-lg" />
+                                        <label class="form-label" for="fpass">Password</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="frpass" class="form-control form-control-lg" />
+                                        <label class="form-label" for="frpass">Re Type Password</label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="fimage" class="form-control form-control-lg" />
+                                      <label class="form-label" for="fimage">Image</label>
+                                    </div>
+                                   
+                                  </div>
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="fbank" class="form-control form-control-lg" />
+                                      <label class="form-label" for="fbank">Farmer Bank</label>
+                                    </div>
+                                   
+                                  </div>
+                
+                                </div>
+                              </div>
+                              <div class="col-lg-6 bg-indigo text-white">
+                                <div class="p-5">
+                                  <h3 class="fw-normal mb-5">Contact Details</h3>
+                
+                                  <div class="mb-4 pb-2">
+                                    <div class="form-outline form-white">
+                                      <input type="text" id="fpaytmid" class="form-control form-control-lg" />
+                                      <label class="form-label" for="fpaytmid">Paytm / UPI ID</label>
+                                    </div>
+                                  </div>
+                
+                
+                                  <div class="row">
+                                    <div class="col-md-5 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="faccountno" class="form-control form-control-lg" />
+                                        <label class="form-label" for="faccountno">Account Number</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-7 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="fbankbranch" class="form-control form-control-lg" />
+                                        <label class="form-label" for="fbankbranch">Bank Branch</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                
+                                  <div class="row">
+                                    <div class="col-md-5 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="fcontact" class="form-control form-control-lg" />
+                                        <label class="form-label" for="fcontact">Contact Number</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-7 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="flocation" class="form-control form-control-lg" />
+                                        <label class="form-label" for="flocation">Location</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                                  <div class="mb-4">
+                                    <div class="form-outline form-white">
+                                      <input type="text" id="fabout" class="form-control form-control-lg" />
+                                      <label class="form-label" for="fabout">About You</label>
+                                    </div>
+                                  </div>
+                
+                                
+                
+                                  <button type="button" class="btn btn-light btn-lg"
+                                    data-mdb-ripple-color="dark">Register</button>
+                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              
+            </ng-template>
+              <ng-template #elseBlock>
+                <section class="h-100 h-custom gradient-custom-2">
+
+                  <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col-12">
+                        <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                          <div class="card-body p-0">
+                            <div class="row g-0">
+                              <div class="col-lg-6">
+                                <div class="p-5">
+                                  <h3 class="fw-normal mb-5" style="color: #4835d4;">Dealer Infomation</h3>
+                
+                                  
+                
+                                  <div class="row">
+                                    <div class="col-md-6 mb-4 pb-2">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="dealerid" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealerid">Dealer ID</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-6 mb-4 pb-2">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="dealeremail" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealeremail">Dealer Email</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                                  
+                
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="dealername" class="form-control form-control-lg" />
+                                     
+                                      <label class="form-label" for="dealername">Dealer Name</label>
+                                    </div>
+                                   
+                                  </div>
+                
+                                  <div class="row">
+                                    <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="dealerpass" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealerpass">Password</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
+                
+                                      <div class="form-outline">
+                                        <input type="text" id="drpass" class="form-control form-control-lg" />
+                                        <label class="form-label" for="drpass">Re Type Password</label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="dealerphone" class="form-control form-control-lg" />
+                                      <label class="form-label" for="dealerphone">Dealer Phone</label>
+                                    </div>
+                                   
+                                  </div>
+                                  <div class="mb-4 pb-2">
+                                    
+                                    <div class="form-outline">
+                                      <input type="text" id="dealerimage" class="form-control form-control-lg" />
+                                      <label class="form-label" for="dealerimage">Dealer Image</label>
+                                    </div>
+                                   
+                                  </div>
+                
+                                </div>
+                              </div>
+                              <div class="col-lg-6 bg-indigo text-white">
+                                <div class="p-5">
+                                  <h3 class="fw-normal mb-5">Contact Details</h3>
+                
+                                  <div class="mb-4 pb-2">
+                                    <div class="form-outline form-white">
+                                      <input type="text" id="dealerpaytmid" class="form-control form-control-lg" />
+                                      <label class="form-label" for="dealerpaytmid">Paytm / UPI ID</label>
+                                    </div>
+                                  </div>
+                
+                
+                                  <div class="row">
+                                    <div class="col-md-5 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="dealerlocation" class ="form-control form-control-lg" />
+                                        <label class="form-label" for = "dealerlocation">Dealer Location</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-7 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="dealerbank" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealerbank">Dealer Bank</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                
+                                  <div class="row">
+                                    <div class="col-md-5 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="dealerbranch" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealerbranch">Dealer Bank Branch</label>
+                                      </div>
+                
+                                    </div>
+                                    <div class="col-md-7 mb-4 pb-2">
+                
+                                      <div class="form-outline form-white">
+                                        <input type="text" id="dealeraccountno" class="form-control form-control-lg" />
+                                        <label class="form-label" for="dealeraccountno">Account Number</label>
+                                      </div>
+                
+                                    </div>
+                                  </div>
+                
+                                  <div class="mb-4">
+                                    <div class="form-outline form-white">
+                                      <input type="text" id="dealerpaytmid" class="form-control form-control-lg" />
+                                      <label class="form-label" for="dealerpaytmid">Paytm Id</label>
+                                    </div>
+                                  </div>
+                
+                                
+                
+                                  <button type="button" class="btn btn-light btn-lg"
+                                    data-mdb-ripple-color="dark">Register</button>
+                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            </ng-template>
+              
+           
